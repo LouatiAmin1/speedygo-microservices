@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MicroNotification" />
+        <module name="speedygo" />
+        <module name="MicroParcel" />
+        <module name="MicroserviceTrip" />
+        <module name="Gateway" />
+        <module name="financial" />
+        <module name="Eurekaserver" />
+        <module name="ConfigServer" />
+        <module name="CarpoolMicro" />
+      </profile>
+      <profile name="Annotation profile for vehicule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="vehicule" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CarpoolMicro" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
+      <module name="Eurekaserver" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="MicroNotification" options="-parameters" />
+      <module name="MicroParcel" options="-parameters" />
+      <module name="MicroserviceTrip" options="-parameters" />
+      <module name="financial" options="-parameters" />
+      <module name="speedygo" options="-parameters" />
+      <module name="vehicule" options="-parameters" />
+    </option>
+  </component>
+</project>

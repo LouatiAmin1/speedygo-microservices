@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MicroParcel/pom.xml" />
+        <option value="$PROJECT_DIR$/Eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroserviceTrip/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroNotification/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Config Server/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/financial/pom.xml" />
+        <option value="$PROJECT_DIR$/CarpoolMicro/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicule/pom.xml" />
+        <option value="$PROJECT_DIR$/event micro/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
