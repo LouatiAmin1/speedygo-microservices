@@ -35,5 +35,5 @@ SpeedyGo utilise une architecture **microservices** :
 - Java 17
 - Maven 3.6+
 - Docker & Docker Compose (optionnel)
-- MySQL ou PostgreSQL si tu souhaites une DB locale
+- MySQL ou H2 si tu souhaites une DB locale
 
